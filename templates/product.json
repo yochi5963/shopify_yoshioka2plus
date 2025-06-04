@@ -45,7 +45,7 @@
         "custom_liquid_HJePH3": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": "{% if product.tags contains \"pre-order\" %}\t\t\t\n\t<div class=\"custom-options\">\t\t\n\t\t<label for=\"engraving_name\">刻印する名前:</label>\t\n\t\t<input type=\"text\"\t\n\t\t\tid=\"engraving_name\"\n\t\t\tname=\"properties[engraving_name]\"\n\t\t\tplaceholder=\"例: テスト名前\" \n\t\t\tform=\"product-form-{{ section.id }}\"\n\t\t\trequired>\n\t\t<br>\t\n\t\t<label for=\"delivery_date\">配送指定日:</label>\t\n\t\t<input type=\"date\"\t\n\t\t\tid=\"delivery_date\"\n\t\t\tname=\"properties[delivery_date]\" \n\t\t\tform=\"product-form-{{ section.id }}\"\n\t\t\trequired>\n\t</div>\t\t\n{% endif %}"
+            "custom_liquid": "{% if product.tags contains \"pre-order\" %}\t\t\t\n\t<div class=\"custom-options\">\t\t\n\t\t<label for=\"engraving_name\">{{ 'properties.engraving_name' | t }}:</label>\t\n\t\t<input type=\"text\"\t\n\t\t\tid=\"engraving_name\"\n\t\t\tname=\"properties[engraving_name]\"\n\t\t\tplaceholder=\"例: テスト名前\" \n\t\t\tform=\"product-form-{{ section.id }}\"\n\t\t\trequired>\n\t\t<br>\t\n\t\t<label for=\"delivery_date\">{{ 'properties.delivery_date' | t }}:</label>\t\n\t\t<input type=\"date\"\t\n\t\t\tid=\"delivery_date\"\n\t\t\tname=\"properties[delivery_date]\" \n\t\t\tform=\"product-form-{{ section.id }}\"\n\t\t\trequired>\n\t</div>\t\t\n{% endif %}"
           }
         },
         "quantity_selector": {
