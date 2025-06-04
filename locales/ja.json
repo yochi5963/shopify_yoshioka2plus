@@ -533,5 +533,9 @@
       "expanded": "ギフトカードカードの受取人フォームを展開しました",
       "collapsed": "ギフトカードカードの受取人フォームを折りたたみました"
     }
+  },
+  "properties": {
+    "engraving_name": "名入れ",
+    "delivery_date": "お届け日"
   }
 }
