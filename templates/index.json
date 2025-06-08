@@ -19,6 +19,16 @@
         "padding_bottom": 52
       }
     },
+    "custom_liquid_6RXhJ9": {
+      "type": "custom-liquid",
+      "name": "t:sections.custom-liquid.presets.name",
+      "settings": {
+        "custom_liquid": "カスタム２",
+        "color_scheme": "",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
     "image_banner": {
       "type": "image-banner",
       "blocks": {
@@ -89,6 +99,7 @@
   },
   "order": [
     "custom_liquid_6QeVkB",
+    "custom_liquid_6RXhJ9",
     "image_banner",
     "featured_collection"
   ]
