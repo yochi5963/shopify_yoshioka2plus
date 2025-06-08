@@ -20,6 +20,7 @@
   header-drawer {
     justify-self: start;
     margin-left: -1.2rem;
+    background: {{ section.settings.hoge2_color }}
   }
 
   {%- if section.settings.sticky_header_type == 'reduce-logo-size' -%}
@@ -472,7 +473,13 @@
   "class": "section-header",
   "max_blocks": 3,
   "settings": [
-    {
+      {
+        "type": "color",
+        "id": "hoge2_color",
+        "label": "hoge2で色を指定する",
+        "default": "#fff"
+      },
+      {
       "type": "select",
       "id": "logo_position",
       "options": [
