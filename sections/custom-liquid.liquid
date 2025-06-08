@@ -2,6 +2,7 @@
   .section-{{ section.id }}-padding {
     padding-top: calc({{ section.settings.padding_top }}px * 0.75);
     padding-bottom: calc({{ section.settings.padding_bottom }}px  * 0.75);
+    background: {{ section.settings.hoge_color }};
   }
 
   @media screen and (min-width: 750px) {
@@ -13,11 +14,7 @@
 {%- endstyle -%}
 <div class="color-{{ section.settings.color_scheme }} gradient">
   <div class="section-{{ section.id }}-padding">
-    {{ section.settings.custom_liquid }}
-    <br>
-    {{ section.settings.hoge_text }}
-    <br>
-    {{ section.settings.hoge_color }}
+    {{ section.settings.custom_liquid }}    <br>    {{ section.settings.hoge_text }}
   </div>
 </div>
 
