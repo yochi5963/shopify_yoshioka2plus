@@ -11,8 +11,22 @@
   "sections": {
     "custom_liquid_6QeVkB": {
       "type": "custom-liquid",
+      "blocks": {
+        "block2_XLpVAQ": {
+          "type": "block2",
+          "settings": {
+            "block2-img": "shopify://shop_images/Main_b13ad453-477c-4ed1-9b43-81f3345adfd6.jpg",
+            "block2-text": "a\nい\nいい\nじゅ"
+          }
+        }
+      },
+      "block_order": [
+        "block2_XLpVAQ"
+      ],
       "name": "t:sections.custom-liquid.presets.name",
       "settings": {
+        "hoge_color": "#ffffff",
+        "hoge_text": "デフォルトのテキスト",
         "custom_liquid": "カスタム１",
         "color_scheme": "",
         "padding_top": 40,
@@ -23,6 +37,8 @@
       "type": "custom-liquid",
       "name": "t:sections.custom-liquid.presets.name",
       "settings": {
+        "hoge_color": "#ffffff",
+        "hoge_text": "デフォルトのテキスト",
         "custom_liquid": "カスタム２",
         "color_scheme": "",
         "padding_top": 40,
